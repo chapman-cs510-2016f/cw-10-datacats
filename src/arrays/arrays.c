@@ -6,11 +6,11 @@ int main(void)
     int array_size = 10;
     
     // Declare an array of array_size integers in the usual way
-    int array[array_size];
+    float array[array_size];
 
     // Allocate a block of array_size integers and assign the address
     // of the beginning of the memory block to the pointer array2
-    int *memblock = malloc(array_size * sizeof(int));
+    float *memblock = malloc(array_size * sizeof(float));
     /* WARNING: malloc may fail and return a NULL value for the pointer
                 Good programming practice mandates checking for such failures.
     */
@@ -39,10 +39,10 @@ int main(void)
     for (i=0; i < (array_size + 3); i++)
     {
         // print the array values in the usual way
-        printf("array[%d] : %d\t", i, array[i]);
+        printf("array[%d] : %f\t", i, array[i]);
         
         // print the values contained in each memory address from memblock on
-        printf("*(memblock + %d) : %d\t", i, *(memblock+i));
+        printf("*(memblock + %d) : %f\t", i, *(memblock+i));
         
         // print each character in the string
         printf("foo[%d] : %c\t", i, foo[i]);
