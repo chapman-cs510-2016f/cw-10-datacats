@@ -1,8 +1,8 @@
 # CS510 CW 10
 
-**Author(s):** _\<your name(s)\>_
+**Author(s):** _Simrath Ratra, Andrew Nguyen_
 
-[![Build Status](https://travis-ci.org/chapman-cs510-2016f/cw-10-YOURNAME.svg?branch=master)](https://travis-ci.org/chapman-cs510-2016f/cw-10-YOURNAME)
+[![Build Status](https://travis-ci.org/chapman-cs510-2016f/cw-10-datacats.svg?branch=master)](https://travis-ci.org/chapman-cs510-2016f/cw-10-datacats)
 
 **Due date:** 2016/11/08
 
@@ -42,7 +42,7 @@ Complete the following exercises, saving your solutions in the indicated files.
 
 Analyze in this section what you found useful about this assignment in your own words. Include any lingering questions or comments that you may have.
 
-**CHANGEME**
+**This classwork was good to have us practice analyzing the structure of C even further and gaining a better understanding of how variables behave and are saved. Although still have a few confusions, which are later clerified by the instructure, this classwork was a good window into how pointers behave and work. **
 
 ## Honor Pledge
 
@@ -53,4 +53,4 @@ I pledge that all the work in this repository is my own with only the following 
 
 Signed,
 
-**YOURNAME**
+**Simrath Ratra, Andrew Nguyen**
