@@ -49,8 +49,8 @@ static char * test_pass_by_reference() {
     COMP x = 0, y = 0;
     VEC2 w = {x, y};
     setVec2(&w, 1.0, 2.0);
-    mu_assert("error, w.x != 1.0", is_equal(w->x, 1.0));
-    mu_assert("error, w.y != 2.0", is_equal(w->y, 2.0)); 
+    mu_assert("error, w.x != 1.0", is_equal(w.x, 1.0));
+    mu_assert("error, w.y != 2.0", is_equal(w.y, 2.0)); 
     return 0;
 }
 
@@ -58,6 +58,7 @@ static char * test_pass_by_reference() {
  */
 static char * all_tests() {
     mu_run_test(test_pass_by_value);
+    mu_run_test(test_pass_by_reference);
     return 0;
 }
 
